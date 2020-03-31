@@ -1,0 +1,28 @@
+.logo_container {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 1.5rem;
+    left: 1rem;
+    transition: all .5s ease-in-out;
+    z-index: 99;
+}
+
+.logo_container_heading {
+    color: rgb(233, 197, 94);
+    background: transparent;
+    letter-spacing: .1rem;
+    font-family: serif; 
+    top: 4.5rem;
+    left: .5rem;
+    position: fixed; 
+}
+
+.logo_container_img {
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    
+    border-radius: 8px;
+}
+

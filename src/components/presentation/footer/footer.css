@@ -1,0 +1,16 @@
+.footer_container {
+    width: 100vw;
+    height: 15vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.footer_heading {
+    color: white;
+    font-family: "AccoladeTOTMed W01 Regular";
+    position: relative;
+    top: 35px;
+    font-size: 1.2rem;
+}

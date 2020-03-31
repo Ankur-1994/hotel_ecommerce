@@ -1,0 +1,30 @@
+.story_container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+.story_box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4.5rem;
+    transition: 1s ease all;
+    width: 50%;
+    max-width: 900px;
+    font-family: "AccoladeTOTMed W01 Regular";
+    color: white;
+}
+
+.story_title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 4rem;
+}
+
+.story_desc {
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,48 @@
+.chef_container {
+    width: 100vw;
+    height: 80vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.chef_container_image {
+    width: 50%;
+    background: radial-gradient(at 0% 0, black, transparent 70%),
+      linear-gradient(0deg, black, transparent 100%) bottom,
+      url("../../../assets/chef.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow: hidden;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.chef_container_image:hover {
+    transform: translateY(1rem);
+}
+
+.chef_container_info {
+width: 50%;
+}
+
+.overview_container_heading {
+    margin-bottom: 1.5rem;
+    font-family: "AccoladeTOTMed W01 Regular";
+    line-height: 1.5;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.overview_container_heading::after {
+    background-image: url(https://getbento.imgix.net/accounts/764669aa778a28f968b6bd1eb56c19bc/media/images/32101hr.png?w=1800&fit=max&auto=compress,format&h=1800);
+    height: 20px;
+    width: 137px;
+    background-size: 100%;
+    max-height: 30px;
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}

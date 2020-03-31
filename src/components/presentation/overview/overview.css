@@ -1,0 +1,47 @@
+.overview_container {
+  width: 100vw;
+  height: 80vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.overview_container_info {
+  width: 50%;
+}
+
+.overview_container_txt {
+  margin-bottom: 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 8rem;
+  transition: all .5s ease-in-out;
+}
+
+.overview_container_txt:hover {
+    transform: translateY(1rem);
+}
+
+.overview_txt {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.overview_container_image {
+  width: 50%;
+  background: radial-gradient(at 90% 0, black, transparent 70%),
+    linear-gradient(90deg, black, transparent 100%) bottom,
+    url("../../../assets/wine.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.overview_container_image:hover {
+  transform: translateY(-1rem);
+}
