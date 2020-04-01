@@ -2,14 +2,15 @@ import React, { Component } from "react";
 import * as firebaseui from "firebaseui";
 import firebase from "firebase";
 import firebaseConfig from "../../../firebaseConfig";
+import "./registerPage.css";
 
 class RegisterPage extends Component {
   componentDidMount() {
-    const firebaseApp = firebase.initializeApp(firebaseConfig);
+    const fbase = firebase.initializeApp(firebaseConfig);
     const uiConfig = {
-      signInSuccessUrl: "https://netflix-clone-ankur.herokuapp.com/",
+      signInSuccessUrl: "/user",
       signInOptions: [firebase.auth.PhoneAuthProvider.PROVIDER_ID],
-      tosUrl: "https://netflix-clone-ankur.herokuapp.com/"
+      tosUrl: "/user"
     };
     var ui = new firebaseui.auth.AuthUI(firebase.auth());
     ui.start("#firebaseui-auth-container", uiConfig);
@@ -17,8 +18,15 @@ class RegisterPage extends Component {
   render() {
     return (
       <>
-        <h1>Welcome to My Awesome App</h1>
-        <div id="firebaseui-auth-container"></div>
+        <div className="register_container">
+          <div className="register_box">
+            <h1 className="register_title">REGISTER</h1>
+            <p className="register_desc">Before Proceeding, please register your mobile number</p>
+            <div id="firebaseui-auth-container"></div>
+          </div>
+        </div>
+        {/* <h1>Welcome to My Awesome App</h1>
+        <div id="firebaseui-auth-container"></div> */}
       </>
     );
   }

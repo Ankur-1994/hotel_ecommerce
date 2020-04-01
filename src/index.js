@@ -8,7 +8,8 @@ import IntroductionPage from "./components/presentation/introductionPage/introdu
 import ContactPage from "./components/presentation/contactPage/contactPage";
 import StoryPage from "./components/presentation/storyPage/storyPage";
 import orderPage from "./components/presentation/orderPage/orderPage";
-import RegisterPage from "./components/presentation/registerPage/registerPage";
+import RegisterView from "./components/presentation/registerView/registerView";
+import UserDetail from "./components/presentation/userDetail/userDetail";
 import "./styles/index.css";
 
 ReactDOM.render(
@@ -20,7 +21,8 @@ ReactDOM.render(
     <Route path="/contact" component={ContactPage} />
     <Route path="/story" component={StoryPage} />
     <Route path="/order" component={orderPage} />
-    <Route path="/register" component={RegisterPage} />
+    <Route path="/register" component={RegisterView} />
+    <Route path="/user" component={UserDetail} />
   </Router>,
   document.getElementById("root")
 );
