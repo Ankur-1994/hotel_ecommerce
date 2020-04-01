@@ -33,7 +33,9 @@ const FullScreenOverlay = () => {
           <Link style={{ textDecoration: "none" }} to="/menu">
             <span>Menu</span>
           </Link>
-          <span>Orders</span>
+          <Link style={{ textDecoration: "none" }} to="/order">
+            <span>Orders</span>
+          </Link>
           <Link style={{ textDecoration: "none" }} to="/story">
             <span>Our Story</span>
           </Link>

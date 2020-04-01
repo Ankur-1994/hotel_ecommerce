@@ -1,27 +1,27 @@
 .intro_container {
-    width: 100vw;
-    height: auto;
-    background: black;
+  width: 100vw;
+  height: 100vh;
+  background: black;
 }
 
 .intro_box {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 4.5rem;
-    transition: 1s ease all;
-    width: 50%;
-    max-width: 900px;
-    font-family: "AccoladeTOTMed W01 Regular";
-    color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  transition: 1s ease all;
+  width: 50%;
+  max-width: 900px;
+  font-family: "AccoladeTOTMed W01 Regular";
+  color: white;
 }
 
 .intro_title {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 .intro_para {
-    line-height: 1.2;
-    font-size: 1.1rem;
+  line-height: 1.2;
+  font-size: 1.1rem;
 }

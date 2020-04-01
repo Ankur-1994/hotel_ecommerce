@@ -1,0 +1,131 @@
+.order_container {
+  width: 100vw;
+  height: auto;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.order_box {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 4.5rem;
+  transition: 1s ease all;
+  font-family: "AccoladeTOTMed W01 Regular";
+  color: white;
+}
+
+.order_heading {
+  text-align: center;
+  width: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  position: relative;
+  top: 3rem;
+}
+
+.order_detail {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 3rem;
+}
+
+.order_list {
+  width: 60%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.cart {
+  width: 30%;
+  border: 1px solid rgb(233, 197, 94);
+  /* margin-left: -1rem; */
+  height: auto;
+  position: fixed;
+  right: 1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  top: 5rem;
+  bottom: 0;
+}
+
+.cart_title {
+  color: px solid rgb(233, 197, 94);
+  text-align: center;
+}
+
+.cart_img {
+  background: radial-gradient(at 0% 0, black, transparent 70%), linear-gradient(0deg, black, transparent 100%) bottom, url("../../../assets/cart.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  height: 65vh;
+}
+
+.cart_list {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.cart_item_title {
+  width: 70%;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.cart_rate_plan {
+  width: 25%;
+  display: inline-block;
+}
+
+.subtotal_box {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+  border-top: 1px solid rgb(233, 197, 94);
+}
+
+.subtotal_title {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.checkout {
+  position: absolute;
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 5px;
+  right: 3rem;
+  margin-bottom: 1rem;
+  background: black;
+  color: rgb(233, 197, 94);
+  transition: 1s ease-in-out all;
+}
+
+.checkout:hover {
+  background: rgb(233, 197, 94);
+  color: black;
+}
+
+.add_cart_btn {
+  background: black;
+  color: rgb(233, 197, 94);
+  cursor: pointer;
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+  transition: 1s ease all;
+  margin-bottom: 2rem;
+}
+
+.add_cart_btn:hover {
+  background: rgb(233, 197, 94);
+  color: black;
+}
