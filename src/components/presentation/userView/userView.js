@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./userView.css";
+import { Link } from "react-router-dom";
 
 const UserView = () => {
   const [fname, setFname] = useState("");
@@ -78,9 +79,11 @@ const UserView = () => {
 
         {isCheckoutbtnVisible ? (
           <div className="form_action">
+            <Link to="/confirm">
             <button type="submit" className="btn_send">
               Proceed to checkout
             </button>
+            </Link>
           </div>
         ) : null}
       </div>

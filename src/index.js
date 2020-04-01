@@ -10,6 +10,7 @@ import StoryPage from "./components/presentation/storyPage/storyPage";
 import orderPage from "./components/presentation/orderPage/orderPage";
 import RegisterView from "./components/presentation/registerView/registerView";
 import UserDetail from "./components/presentation/userDetail/userDetail";
+import ConfirmationPage from "./components/presentation/confirmationPage/confirmationPage";
 import "./styles/index.css";
 
 ReactDOM.render(
@@ -23,6 +24,7 @@ ReactDOM.render(
     <Route path="/order" component={orderPage} />
     <Route path="/register" component={RegisterView} />
     <Route path="/user" component={UserDetail} />
+    <Route path="/confirm" component={ConfirmationPage} />
   </Router>,
   document.getElementById("root")
 );

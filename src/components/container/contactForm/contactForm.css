@@ -23,10 +23,7 @@
 }
 
 .form_title::after {
-  background-image: url(
-    https://getbento.imgix.net/accounts/764669aa778a28f968b6bd1eb56c19bc/media/images/32101hr.png?w=1800&fit=max&auto=compress,
-    format&h=1800
-  );
+  background-image: url('https://getbento.imgix.net/accounts/764669aa778a28f968b6bd1eb56c19bc/media/images/32101hr.png?w=1800&fit=max&auto=compress,format&h=1800');
   height: 20px;
   width: 137px;
   background-size: 100%;

@@ -18,6 +18,7 @@ const OrderDetail = () => {
   const [whiskyDetail, setWhisky] = useState(WHISKY);
   const [beerDetail, setBeer] = useState(BEER);
 
+  localStorage.setItem('cost', 0)
   const getFilteredData = category => {
     if (category === "veg") {
       return vegDetail;
@@ -435,6 +436,7 @@ const OrderDetail = () => {
     Object.keys(product).map(item => {
       total_price += product[item][0] * product[item][1];
     });
+    localStorage.setItem('cost', total_price)
     return total_price;
   };
 
