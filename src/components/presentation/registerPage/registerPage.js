@@ -21,12 +21,10 @@ class RegisterPage extends Component {
         <div className="register_container">
           <div className="register_box">
             <h1 className="register_title">REGISTER</h1>
-            <p className="register_desc">Before Proceeding, please register your mobile number</p>
+            <p className="register_desc">Before Proceeding, please enter your mobile number</p>
             <div id="firebaseui-auth-container"></div>
           </div>
         </div>
-        {/* <h1>Welcome to My Awesome App</h1>
-        <div id="firebaseui-auth-container"></div> */}
       </>
     );
   }
