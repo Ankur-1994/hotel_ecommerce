@@ -1,18 +1,6 @@
 import React from "react";
 import "./menuDetail.css";
-import {
-  VEGETARIAN,
-  NONVEGETARIAN,
-  CHAMPAGNE,
-  SPRAKLINGWINE,
-  WHITEWINE,
-  REDWINE,
-  VODKA,
-  RUM,
-  TEQUILA,
-  WHISKY,
-  BEER
-} from "../../../constants";
+import { VEGETARIAN, NONVEGETARIAN, CHAMPAGNE, SPRAKLINGWINE, WHITEWINE, REDWINE, VODKA, RUM, TEQUILA, WHISKY, BEER } from "../../../constants";
 
 const MenuDetail = () => {
   const vegList = () =>

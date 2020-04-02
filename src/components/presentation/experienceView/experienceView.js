@@ -7,13 +7,9 @@ const ExperienceView = () => {
     <div className="experience_container">
       <div className="experience_container_img"></div>
       <div className="experience_container_info">
-        <h2 className="experience_container_heading">
-          Experience Bar and Lounge
-        </h2>
-        <Link to="/location">
-          <button role="button" className="locationButton">
-            Location & Hours
-          </button>
+        <h2 className="experience_container_heading">Experience Bar and Lounge</h2>
+        <Link to="/location" style={{ textDecoration: "none" }}>
+          <button className="locationButton">Location & Hours</button>
         </Link>
       </div>
     </div>

@@ -10,6 +10,12 @@ const FullScreenOverlay = () => {
     if (document.querySelector(".landing_content")) {
       document.querySelector(".landing_content").style.display = "block";
     }
+    if (document.querySelector(".locationButton")) {
+      document.querySelector(".locationButton").style.display = "block";
+    }
+    if (document.querySelector(".experience_container_heading")) {
+      document.querySelector(".experience_container_heading").style.display = "block";
+    }
   };
 
   const openSlider = () => {
@@ -18,6 +24,12 @@ const FullScreenOverlay = () => {
     }
     if (document.querySelector(".landing_content")) {
       document.querySelector(".landing_content").style.display = "none";
+    }
+    if (document.querySelector(".locationButton")) {
+      document.querySelector(".locationButton").style.display = "none";
+    }
+    if (document.querySelector(".experience_container_heading")) {
+      document.querySelector(".experience_container_heading").style.display = "none";
     }
   };
   return (

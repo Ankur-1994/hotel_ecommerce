@@ -18,7 +18,7 @@ const OrderDetail = () => {
   const [whiskyDetail, setWhisky] = useState(WHISKY);
   const [beerDetail, setBeer] = useState(BEER);
 
-  localStorage.setItem('cost', 0)
+  localStorage.setItem("cost", 0);
   const getFilteredData = category => {
     if (category === "veg") {
       return vegDetail;
@@ -135,12 +135,12 @@ const OrderDetail = () => {
   const vegList = () =>
     vegDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -161,12 +161,12 @@ const OrderDetail = () => {
   const nonvegList = () =>
     nonVegDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -187,12 +187,12 @@ const OrderDetail = () => {
   const champagne = () =>
     champagneDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -213,12 +213,12 @@ const OrderDetail = () => {
   const sparkwine = () =>
     sparkwineDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -239,12 +239,12 @@ const OrderDetail = () => {
   const whitewine = () =>
     whitewineDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -265,12 +265,12 @@ const OrderDetail = () => {
   const redwine = () =>
     redwineDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -291,12 +291,12 @@ const OrderDetail = () => {
   const vodka = () =>
     vodkaDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -317,12 +317,12 @@ const OrderDetail = () => {
   const rum = () =>
     rumDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -343,12 +343,12 @@ const OrderDetail = () => {
   const tequila = () =>
     tequilaDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -369,12 +369,12 @@ const OrderDetail = () => {
   const whisky = () =>
     whiskyDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -395,12 +395,12 @@ const OrderDetail = () => {
   const beer = () =>
     beerDetail.map((data, index) => {
       return (
-        <div key={index} className="menu_detail">
-          <div className="menu_dish">
+        <div key={index} className="cart_detail">
+          <div className="cart_dish">
             <h5>{data.title}</h5>
             <h6>{data.subtitle}</h6>
           </div>
-          <div className="menu_rate">
+          <div className="cart_rate">
             <h5>₹{data.rate}</h5>
             {data.qty > 0 ? (
               <span style={{ position: "relative", left: "-15px", fontSize: "2rem", cursor: "pointer" }} onClick={() => decrementQty(data)}>
@@ -436,7 +436,7 @@ const OrderDetail = () => {
     Object.keys(product).map(item => {
       total_price += product[item][0] * product[item][1];
     });
-    localStorage.setItem('cost', total_price)
+    localStorage.setItem("cost", total_price);
     return total_price;
   };
 
@@ -446,37 +446,37 @@ const OrderDetail = () => {
         <h1 className="order_heading">Orders</h1>
         <div className="order_detail">
           <div className="order_list">
-            <h3 className="menu_title">VEGETARIAN</h3>
+            <h3 className="cart_title">VEGETARIAN</h3>
             {vegList()}
 
-            <h3 className="menu_title">NON-VEGETARIAN</h3>
+            <h3 className="cart_title">NON-VEGETARIAN</h3>
             {nonvegList()}
 
-            <h3 className="menu_title">CHAMPAGNE</h3>
+            <h3 className="cart_title">CHAMPAGNE</h3>
             {champagne()}
 
-            <h3 className="menu_title">SPARKLING WINE</h3>
+            <h3 className="cart_title">SPARKLING WINE</h3>
             {sparkwine()}
 
-            <h3 className="menu_title">WHITE WINE</h3>
+            <h3 className="cart_title">WHITE WINE</h3>
             {whitewine()}
 
-            <h3 className="menu_title">RED WINE</h3>
+            <h3 className="cart_title">RED WINE</h3>
             {redwine()}
 
-            <h3 className="menu_title">VODKA</h3>
+            <h3 className="cart_title">VODKA</h3>
             {vodka()}
 
-            <h3 className="menu_title">RUM</h3>
+            <h3 className="cart_title">RUM</h3>
             {rum()}
 
-            <h3 className="menu_title">TEQUILA</h3>
+            <h3 className="cart_title">TEQUILA</h3>
             {tequila()}
 
-            <h3 className="menu_title">WHISKY</h3>
+            <h3 className="cart_title">WHISKY</h3>
             {whisky()}
 
-            <h3 className="menu_title">BEER</h3>
+            <h3 className="cart_title">BEER</h3>
             {beer()}
           </div>
 

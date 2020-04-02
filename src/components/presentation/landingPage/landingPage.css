@@ -1,40 +1,75 @@
 .landing_container {
-    background: radial-gradient(at 90% 0, black, transparent 70%),linear-gradient(90deg, black, transparent 100%) bottom, url('../../../assets/rest.jpg');
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    overflow: hidden;
+  background: radial-gradient(at 90% 0, black, transparent 70%), linear-gradient(90deg, black, transparent 100%) bottom,
+    url("../../../assets/rest.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .landing_container {
+    height: 80vh;
+  }
 }
 
 .landing_content {
-    position: relative;
-    z-index: 10;
-    width: 80vw;
-    height: auto;
-    top: 15rem;
-    left: 9rem;
+  position: relative;
+  z-index: 10;
+  width: 80vw;
+  height: auto;
+  top: 15rem;
+  left: 9rem;
 }
 
-.landing_content_title, .landing_content_subtitle {
-    color: rgb(233, 197, 94);
-    text-transform: uppercase;
-    font-size: 3rem;
-    text-align: center;
-    letter-spacing: 7px;
-    font-weight: normal;
-    font-family: "AccoladeTOTMed W01 Regular";
-    transition: all .5s ease-in-out;
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .landing_content {
+    top: 9rem;
+    left: 3rem;
+  }
+}
+
+.landing_content_title,
+.landing_content_subtitle {
+  color: rgb(233, 197, 94);
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 7px;
+  font-weight: normal;
+  font-family: "AccoladeTOTMed W01 Regular";
+  transition: all 0.5s ease-in-out;
 }
 
 .landing_content_subtitle {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .landing_content_title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .landing_content_subtitle {
+    font-size: 1rem;
+  }
 }
 
 .landing_content_title:hover {
-    transform: translateY(-1rem);
+  transform: translateY(-1rem);
 }
 
 .landing_content_subtitle:hover {
-    transform: translateY(1rem);
+  transform: translateY(1rem);
 }

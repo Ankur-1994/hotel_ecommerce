@@ -6,8 +6,24 @@
   justify-content: center;
 }
 
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .overview_container {
+    height: 50vh;
+  }
+}
+
 .overview_container_info {
   width: 50%;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .overview_container_info {
+    width: 100vw;
+  }
 }
 
 .overview_container_txt {
@@ -19,11 +35,20 @@
   position: relative;
   text-align: center;
   top: 8rem;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .overview_container_txt {
+    top: 3rem;
+    font-size: 0.8rem;
+  }
 }
 
 .overview_container_txt:hover {
-    transform: translateY(1rem);
+  transform: translateY(1rem);
 }
 
 .overview_txt {
@@ -31,15 +56,32 @@
   display: block;
 }
 
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .overview_txt {
+    top: 1.1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
 .overview_container_image {
   width: 50%;
-  background: radial-gradient(at 90% 0, black, transparent 70%),
-    linear-gradient(90deg, black, transparent 100%) bottom,
+  background: radial-gradient(at 90% 0, black, transparent 70%), linear-gradient(90deg, black, transparent 100%) bottom,
     url("../../../assets/wine.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .overview_container_image {
+    width: 100vw;
+  }
 }
 
 .overview_container_image:hover {

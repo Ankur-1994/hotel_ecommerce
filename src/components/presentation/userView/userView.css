@@ -2,6 +2,24 @@
   width: 100vw;
   height: 100vh;
   background: black;
+  transition: ease-in-out 1s all;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .user_container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .user_container {
+    height: auto;
+  }
 }
 
 .user_box {

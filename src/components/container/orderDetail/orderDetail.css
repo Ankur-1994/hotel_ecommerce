@@ -4,6 +4,7 @@
   background: black;
   display: flex;
   justify-content: center;
+  transition: ease-in-out 1s all;
 }
 
 .order_box {
@@ -24,11 +25,47 @@
   top: 3rem;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_heading {
+    top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_heading {
+    top: 2rem;
+  }
+}
+
 .order_detail {
   width: 100%;
   display: flex;
   position: relative;
   top: 3rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_detail {
+    overflow: hidden;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_detail {
+    overflow: hidden;
+    display: block;
+  }
 }
 
 .order_list {
@@ -37,10 +74,26 @@
   padding-left: 5%;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_list {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .order_list {
+    width: 100%;
+  }
+}
+
 .cart {
   width: 30%;
   border: 1px solid rgb(233, 197, 94);
-  /* margin-left: -1rem; */
   height: auto;
   position: fixed;
   right: 1rem;
@@ -48,6 +101,29 @@
   overflow-x: hidden;
   top: 5rem;
   bottom: 0;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart {
+    width: 100%;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart {
+    width: 100%;
+    position: relative;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }
 
 .cart_title {
@@ -64,9 +140,43 @@
   height: 65vh;
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_img {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_img {
+    height: 40vh;
+  }
+}
+
 .cart_list {
   width: 100%;
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_list {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_list {
+    margin-top: 0;
+  }
 }
 
 .cart_item_title {
@@ -89,6 +199,23 @@
   border-top: 1px solid rgb(233, 197, 94);
 }
 
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .subtotal_box {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .subtotal_box {
+    margin-bottom: 3rem;
+  }
+}
+
 .subtotal_title {
   width: 70%;
   margin-left: 10px;
@@ -106,6 +233,29 @@
   background: black;
   color: rgb(233, 197, 94);
   transition: 1s ease-in-out all;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .checkout {
+    position: relative;
+    display: flex;
+    margin-bottom: 6rem;
+    right: -14rem;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .checkout {
+    position: relative;
+    display: flex;
+    margin-bottom: 6rem;
+    right: -14rem;
+  }
 }
 
 .checkout:hover {
@@ -128,4 +278,77 @@
 .add_cart_btn:hover {
   background: rgb(233, 197, 94);
   color: black;
+}
+
+.cart_detail {
+  position: relative;
+  border-bottom: 2px solid rgb(233, 197, 94);
+  left: 0rem;
+  display: flex;
+}
+
+.cart_dish {
+  width: 60%;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_dish {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_dish {
+    width: 40%;
+  }
+}
+
+.cart_rate {
+  width: 20%;
+  margin-left: 5rem;
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_rate {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_rate {
+    width: 35%;
+  }
+}
+
+.cart_title {
+  position: relative;
+  left: 0;
+  color: rgb(233, 197, 94);
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_title {
+    left: -1rem;
+  }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .cart_title {
+    left: -1rem;
+  }
 }

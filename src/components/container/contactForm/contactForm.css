@@ -2,6 +2,24 @@
   width: 100vw;
   height: 100vh;
   background: black;
+  transition: ease-in-out 1s all;
+}
+
+@media only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .form_container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 949px) and (min-width: 550px),
+  only screen and (max-width: 549px) and (min-width: 400px),
+  only screen and (max-width: 399px) and (min-width: 350px),
+  only screen and (max-width: 349px) {
+  .form_container {
+    height: auto;
+  }
 }
 
 .form_box {
@@ -23,7 +41,7 @@
 }
 
 .form_title::after {
-  background-image: url('https://getbento.imgix.net/accounts/764669aa778a28f968b6bd1eb56c19bc/media/images/32101hr.png?w=1800&fit=max&auto=compress,format&h=1800');
+  background-image: url("https://getbento.imgix.net/accounts/764669aa778a28f968b6bd1eb56c19bc/media/images/32101hr.png?w=1800&fit=max&auto=compress,format&h=1800");
   height: 20px;
   width: 137px;
   background-size: 100%;
