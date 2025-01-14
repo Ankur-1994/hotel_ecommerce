@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import HomeView from "./components/presentation/HomeView/HomeView";
 import LocationView from "./components/presentation/locationView/locationView";
 import MenuList from "./components/presentation/menuList/menuList";
