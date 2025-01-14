@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/hotel_ecommerce/static/css/main.f7c997ce.chunk.css",
+    "main.js": "/hotel_ecommerce/static/js/main.1b89b720.chunk.js",
+    "main.js.map": "/hotel_ecommerce/static/js/main.1b89b720.chunk.js.map",
+    "runtime-main.js": "/hotel_ecommerce/static/js/runtime-main.4cf7d6bb.js",
+    "runtime-main.js.map": "/hotel_ecommerce/static/js/runtime-main.4cf7d6bb.js.map",
+    "static/js/2.f8015ab7.chunk.js": "/hotel_ecommerce/static/js/2.f8015ab7.chunk.js",
+    "static/js/2.f8015ab7.chunk.js.map": "/hotel_ecommerce/static/js/2.f8015ab7.chunk.js.map",
+    "index.html": "/hotel_ecommerce/index.html",
+    "precache-manifest.0212b9a2fab6983740443e980711956d.js": "/hotel_ecommerce/precache-manifest.0212b9a2fab6983740443e980711956d.js",
+    "service-worker.js": "/hotel_ecommerce/service-worker.js",
+    "static/css/main.f7c997ce.chunk.css.map": "/hotel_ecommerce/static/css/main.f7c997ce.chunk.css.map",
+    "static/js/2.f8015ab7.chunk.js.LICENSE.txt": "/hotel_ecommerce/static/js/2.f8015ab7.chunk.js.LICENSE.txt",
+    "static/media/orderDetail.css": "/hotel_ecommerce/static/media/cart.a06bfd01.jpg",
+    "static/media/registerPage.css": "/hotel_ecommerce/static/media/chef.b60731a4.jpeg",
+    "static/media/confirmationView.css": "/hotel_ecommerce/static/media/exp.12a49c1e.jpg",
+    "static/media/landingPage.css": "/hotel_ecommerce/static/media/rest.6a0b4db8.jpg",
+    "static/media/overview.css": "/hotel_ecommerce/static/media/wine.c50e419a.jpg",
+    "static/media/winelogo.png": "/hotel_ecommerce/static/media/winelogo.748c5047.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cf7d6bb.js",
+    "static/js/2.f8015ab7.chunk.js",
+    "static/css/main.f7c997ce.chunk.css",
+    "static/js/main.1b89b720.chunk.js"
+  ]
+}
